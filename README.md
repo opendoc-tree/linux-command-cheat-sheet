@@ -37,7 +37,7 @@ ifconfig
    or
 ip a
 ```
-how to install, remove and update package (package means software. In linux it called package)
+how to install, remove and update package on CENTOS/RHEL (package means software. In linux it is called package)
 ```
 yum install package-name -y
 yum remove package-name -y
@@ -48,10 +48,16 @@ yum install git -y
 ```
 * **-y** - it automatically chooses **yes** for future questions, ```i.e. are you sure you want to install squid? [Y/n]?```
 
-how to check list of installed package
+how to install, remove and update package on Ubuntu 
 ```
-yum list installed
+apt-get install package-name -y
+apt-get remove package-name -y
+apt-get update package-name -y
+
+// Example- install git package
+apt-get install git -y
 ```
+
 how to check a package is install or not
 ```
 which package-name
